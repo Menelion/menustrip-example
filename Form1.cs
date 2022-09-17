@@ -1,8 +1,13 @@
-namespace MenuStripMenuBar;
-public partial class Form1: Form
+using System;
+using System.Windows.Forms;
+
+namespace MenuStripMenuBar
 {
-    public Form1()
+    public partial class Form1: Form
     {
-        InitializeComponent();
+        public Form1()
+        {
+            InitializeComponent();
+        }
     }
 }
